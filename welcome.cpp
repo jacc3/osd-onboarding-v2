@@ -1,5 +1,6 @@
 #include <iostream>
 #include "sort.h"
+using namespace std;
 
 int fib(int n) {
     if (n == 0 || n == 1) {
@@ -36,7 +37,7 @@ int main(int argc, char *argv[]) {
                 :XMMMMMWl         .dWMMMMMK,                \n\
                 .:lllll:.          .cllllc,                 \n" << std::endl;
     std::cout << "Hello from Michigan Hackers!\n";
-    std::cout << "Learn more: https://www.youtube.com/watch?v=dQw4w9WgXcQ" << std::endl;
+   // std::cout << "Learn more: https://www.youtube.com/watch?v=dQw4w9WgXcQ" << std::endl;
 
     std::cout << "Doing some math...\n";
     std::cout << "fib(6) = " << fib(6) << std::endl;
